@@ -37,17 +37,3 @@ set_a()
 set_b()
 set_c()
 
-import array as arr
-d=int (input("Enter the number of values"))
-ip=arr.array("i", [])
-for i in range (0,d):
-  val=int (input("Enter Value"))
-  ip.append(val)
-sum=0
-for i in range(len(ip)) :
-  sum = sum + ip[i]
-average=0
-avg= sum/len(ip)
-print(ip)
-print (sum)
-print(avg)
